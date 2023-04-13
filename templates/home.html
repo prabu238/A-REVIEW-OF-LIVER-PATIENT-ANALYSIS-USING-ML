@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+<body style="background-color:C">
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>Introduction</h2>
+        <color:http://127.0.0.1:5000
+        <p>Liver diseases averts the normal function of the liver. Mainly due to the large amount of alcohol consumption liver disease arises. Early prediction of liver disease using classification algorithm is an efficacious task that can help the doctors to close these within a short duration of time. Discovering the extence of liver cease at al complex task for the doctors. The main objective of this paper is to analyse the parameters of various classification algorithms and compare their predictive accuracies so as to find out the best classer for determining the liver disease. This paper focuses on the related works of various authors on liver disease such that algort were implemented using Weka tool that is a machine learning sotware written in Java. Various atributes that are essential in the prediction of liver disease were examined and the dataset of liver patients were also evaluated. This paper compare various classification algorithms such as Random Forest, Logistic Regression and Separation Algor         ithm with an aim to identify the best technique Based on this study, Random Forest with the highest accuracy outperformed the other goths and can be further used in the prediction of liver diseasecommended.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        <ul>
+             <li>Liver Disease Model: <strong>78%</strong></li>
+           </ul>
+        <br>
+        <h3>Information about the Diseases which this webApp can predict.</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Urinating often.</li>
+                    <li>Feeling very thirsty.</li>
+                    <li>Extreme fatigue.</li>
+                    <li>Blurry vision.</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+          <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Liver disease</h4>
+                <p>Symptoms of liver disease can vary, but they often include swelling of the abdomen and legs, bruising easily, changes in the color of your stool and urine, and jaundice, or yellowing of the skin and eyes. Sometimes there are no symptoms. Tests such as imaging tests and liver function tests can check for liver damage and help to diagnose liver diseases.</p>
+            </div>
+        </div>
+
+     </div>
+</div>
+{% endblock %}
